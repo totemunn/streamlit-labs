@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title('Streamlit - Search names')
 
-DATA_URL = ('dataset.csv')
+DATA_URL = ('https://raw.githubusercontent.com/totemunn/streamlit-labs/master/dataset.csv?token=GHSAT0AAAAAAB2X2B3NEPF5FWCHPUODDIG4Y3WQKBA')
 
 @st.cache
 def load_data_byname(name):

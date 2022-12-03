@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-DATA_URL = 'https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-s ep14.csv.gz'
+DATA_URL = 'https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz'
 DATE_COLUMN='Date/Time'
 
 @st.cache
